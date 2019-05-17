@@ -38,6 +38,7 @@ To train my models I randomly selected 50,000 rows and used them to train my mod
 I wanted to run many models to make sure the model I was choosing for production worked the best. I have displayed a plot below that has all the models and the recall and accuracy scores. For this project I wanted to reduce false negatives so I wanted the highest recall score. Since I had multiple models with 1.0 recall scores I chose to pick the model that had the highest accuracy score of models that had perfect recall scores. Please see the scores of my models below.
 
 |Model Name|Recall Score|Accuracy Score|F1 Score|
+|---|---|---|---|
 |Logistic Regression|1.0|0.99942417145646|0.8571428571428571|
 |Gradient Boosting Classifier|1.0|0.9990414561439852|0.7828162291169452|
 |Extreme Gradient Boost Classifier|1.0|0.9993609707626568|0.8439108061749571|
