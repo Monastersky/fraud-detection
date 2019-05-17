@@ -62,10 +62,17 @@ Going forward I would hope to get information on the what the PCA’d columns me
 # Sources
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836738/
+
 https://www.kaggle.com/mlg-ulb/creditcardfraud
+
 https://stackoverflow.com/questions/14885895/color-by-column-values-in-matplotlib
+
 https://stackoverflow.com/questions/34649969/how-to-find-the-features-names-of-the-coefficients-using-scikit-linear-regressio
+
 https://stackoverflow.com/questions/25009284/how-to-plot-roc-curve-in-python
+
 https://discourse.pymc.io/t/bad-initial-energy-inf-the-model-might-be-misspecified/1431/6
+
 https://docs.pymc.io/notebooks/GLM-logistic.html
+
 https://stackoverflow.com/questions/25009284/how-to-plot-roc-curve-in-python
