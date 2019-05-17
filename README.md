@@ -48,7 +48,7 @@ I wanted to run many models to make sure the model I was choosing for production
 
 I ran also ran the unsupervised model K-means but however my results were not good.
 
-I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795.
+I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795 with considerably worse accuracy scores.
 
 ![](plots/pymc_dist.png)
 
