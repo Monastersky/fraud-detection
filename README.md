@@ -21,7 +21,7 @@ For this project I used data a dataset from Kaggle titled “Credit Card Fraud D
 
 I started my exploratory analysis looking at my different classes to see if they were even or not. My fraud class has only 492 observations while my non-fraud class has 284,315 observations so there is a large class imbalance. I then decided to graph my variables to see if there was any difference between the charges labeled as fraud and the charges labeled as non-fraud. When looking at the distribution for fraud amounts I saw that there were spikes in observations at 1, 0 and 99.99 and no spikes elsewhere. The non-fraud graph is still skewed to the and has an initial spike but has far more variance in the observations.
 
-![Amount Distribution for fraud and non-fraud charges](../data/amount.png)
+![Amount Distribution for fraud and non-fraud charges](plots/amount.png)
 
 The PCA’d columns are hard to gather insight about given that I don’t know what they represent but I did analyze them none the less. I found that the columns that had low correlation to the class variable had very similar overlapping distribution curves for the fraud and the non-fraud classes. However if you look at columns such as V17 that has the strongest correlation to class you can see that the distribution plots are completely different for the fraud and the non-fraud class. The non-fraud class is centralized around zero and its values are centralized around zero. The fraud class is centralized closer to -10 and its values are distributed far more ranging from -30 to 10. What was interesting was when I plotted this same plot but for another highly correlated variable, V14 I got very similar results.
 
