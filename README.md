@@ -46,7 +46,7 @@ I wanted to run many models to make sure the model I was choosing for production
 |K-Nearest Neighbors Classifier|1.0|0.99539337165168|0.42857142857142855|
 |Support Vector Machines|0.8963414634146342|0.9926968087160779|0.29777177582714387|
 
-I ran also ran the unsupervised model K-means but however my results were not good.
+I ran also ran the unsupervised model K-means however my results were not good.
 
 I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795 with considerably worse accuracy scores.
 
