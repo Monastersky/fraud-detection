@@ -35,7 +35,16 @@ I was also interested to see if there were any clear clusters of fraud charges i
 
 To train my models I randomly selected 50,000 rows and used them to train my model. This is because since I had so many data points running models on all my data or even 50 percent of my data would take a very long time. Since my classes were highly unbalanced I decided to use SMOTE which is way to balance my classes so that my models did not predict not fraud every single time. SMOTE works by underrepresenting my majority class which is not fraud and overrepresenting my minority class which is fraud. I changed my data so that I had the same amount of fraud cases in my sample dataset and did not change my original dataset.
 
-I wanted to run many models to make sure the model I was choosing for production worked the best. I have displayed a plot below that has all the models and the recall and accuracy scores. For this project I wanted to reduce false negatives so I wanted the highest recall score. Since I had multiple models with 1.0 recall scores I chose to pick the model that had the highest accuracy score of models that had perfect recall scores.
+I wanted to run many models to make sure the model I was choosing for production worked the best. I have displayed a plot below that has all the models and the recall and accuracy scores. For this project I wanted to reduce false negatives so I wanted the highest recall score. Since I had multiple models with 1.0 recall scores I chose to pick the model that had the highest accuracy score of models that had perfect recall scores. Please see the scores of my models below.
+
+|Model Name|Recall Score|Accuracy Score|F1 Score|
+|Logistic Regression|1.0|0.99942417145646|0.8571428571428571|
+|Gradient Boosting Classifier|1.0|0.9990414561439852|0.7828162291169452|
+|Extreme Gradient Boost Classifier|1.0|0.9993609707626568|0.8439108061749571|
+|K-Nearest Neighbors Classifier|1.0|0.99539337165168|0.42857142857142855|
+|Support Vector Machines|0.8963414634146342|0.9926968087160779|0.29777177582714387|
+
+I ran also ran the unsupervised model K-means but however my results were not good.
 
 I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795.
 
