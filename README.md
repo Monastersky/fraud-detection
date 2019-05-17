@@ -25,7 +25,11 @@ I started my exploratory analysis looking at my different classes to see if they
 
 The PCA’d columns are hard to gather insight about given that I don’t know what they represent but I did analyze them none the less. I found that the columns that had low correlation to the class variable had very similar overlapping distribution curves for the fraud and the non-fraud classes. However if you look at columns such as V17 that has the strongest correlation to class you can see that the distribution plots are completely different for the fraud and the non-fraud class. The non-fraud class is centralized around zero and its values are centralized around zero. The fraud class is centralized closer to -10 and its values are distributed far more ranging from -30 to 10. What was interesting was when I plotted this same plot but for another highly correlated variable, V14 I got very similar results.
 
+![Distribution for V17](plots/V17.png)
+
 I was also interested to see if there were any clear clusters of fraud charges in scatterplots between my variables, which would help in identifying fraud instances. I plotted the V7 variable against amount and was able to see a slight difference between the fraud and the non-fraud charges. The fraud charges had values along the y values where x equaled zero while most of the values for non-fraud were where y equaled zero, however the non-fraud charges still overlapped with most of the fraud charges. I tried plotting V5 against V6 and while the scatterplot looked very different I had similar issues. 
+
+![Scatterplot for V5 and V6](plots/V5_V6.png)
 
 # Modelling
 
