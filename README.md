@@ -58,3 +58,14 @@ My best model was the random forest model which was able to get a perfect recall
 
 # Going Forward  
 Going forward I would hope to get information on the what the PCA’d columns mean so I could find out what features most impact fraud. I also would like to increase the predictability of my Bayesian model as this model gives me more insight to the distribution of my coefficients. Lastly I would like to use flask to implement this model in real life.
+
+# Sources
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836738/
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+https://stackoverflow.com/questions/14885895/color-by-column-values-in-matplotlib
+https://stackoverflow.com/questions/34649969/how-to-find-the-features-names-of-the-coefficients-using-scikit-linear-regressio
+https://stackoverflow.com/questions/25009284/how-to-plot-roc-curve-in-python
+https://discourse.pymc.io/t/bad-initial-energy-inf-the-model-might-be-misspecified/1431/6
+https://docs.pymc.io/notebooks/GLM-logistic.html
+https://stackoverflow.com/questions/25009284/how-to-plot-roc-curve-in-python
