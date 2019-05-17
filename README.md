@@ -39,6 +39,8 @@ I wanted to run many models to make sure the model I was choosing for production
 
 I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795.
 
+![](plots/pymc_dist.png)
+
 # Conclusions
 
 My best model was the random forest model which was able to get a perfect recall score and an accuracy score .9994. I found out that boosting methods and support vector machines work well but do not outperform a random forest in this case. Since interpretability is not important in this case I do not need to worry about random forest’s interpretability. I found that I unsupervised methods such as k-means did not work well for my data. I also found that Bayesian logistic regression models did not perform better than their frequentist counterparts. I was able to create a credit card detection model that caught all instances of fraud, in fact my model caught all instances of fraud.
