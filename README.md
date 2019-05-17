@@ -39,7 +39,8 @@ I wanted to run many models to make sure the model I was choosing for production
 
 |Model Name|Recall Score|Accuracy Score|F1 Score|
 |---|---|---|---|
-|Logistic Regression|1.0|0.99942417145646|0.8571428571428571|
+|Logistic Regression|0.8983739837398373|0.9910044345820151|0.2565293093441671|
+|Random Forest Classification|1.0|0.99942417145646|0.8571428571428571|
 |Gradient Boosting Classifier|1.0|0.9990414561439852|0.7828162291169452|
 |Extreme Gradient Boost Classifier|1.0|0.9993609707626568|0.8439108061749571|
 |K-Nearest Neighbors Classifier|1.0|0.99539337165168|0.42857142857142855|
