@@ -8,11 +8,11 @@ The discovery notebook cleans and analyzes my data and looks to find insights on
 
 - [Discovery](./discovery.ipynb)
 
-- [Modelling Notebook](./modelling_notebook.pynb)
+- [Modelling Notebook](./modelling_notebook.ipynb)
 
-- [Bayesian Notebook](./pymc_notebook)
+- [Bayesian Notebook](./pymc_notebook.ipynb)
 
-- [Live Widget Demo](./credit_risk_widget)
+- [Live Widget Demo](./credit_risk_widget.ipynb)
 
 # Datasets
 
