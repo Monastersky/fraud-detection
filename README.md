@@ -4,7 +4,7 @@ I am interested to see if I can create a fraud detection model that limits the i
 
 # Notebooks
 
-The discovery notebook cleans and analyzes my data and looks to find insights on any trends I had in my data. The modelling notebook balances my classes and applies frequentist models to predict instances of fraud. The Bayesian notebook balances my classes and applies a Bayesian logistic regression model to predict instances of fraud.
+The discovery notebook cleans and analyzes my data and looks to find insights on any trends I had in my data. The modeling notebook balances my classes and applies frequentist models to predict instances of fraud. The Bayesian notebook balances my classes and applies a Bayesian logistic regression model to predict instances of fraud.
 
 - [Discovery](./discovery.ipynb)
 
@@ -33,7 +33,7 @@ I was also interested to see if there were any clear clusters of fraud charges i
 
 ![Scatterplot for V5 and V6](plots/V5_V6.png)
 
-# Modelling
+# Modeling
 
 To train my models I randomly selected 50,000 rows and used them to train my model. This is because since I had so many data points running models on all my data or even 50 percent of my data would take a very long time. Since my classes were highly unbalanced I decided to use SMOTE which is way to balance my classes so that my models did not predict not fraud every single time. SMOTE works by underrepresenting my majority class which is not fraud and overrepresenting my minority class which is fraud. I changed my data so that I had the same amount of fraud cases in my sample dataset and did not change my original dataset.
 
