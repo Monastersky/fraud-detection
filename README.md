@@ -80,3 +80,5 @@ https://discourse.pymc.io/t/bad-initial-energy-inf-the-model-might-be-misspecifi
 https://docs.pymc.io/notebooks/GLM-logistic.html
 
 https://stackoverflow.com/questions/25009284/how-to-plot-roc-curve-in-python
+
+https://github.com/hussainburhani/ds_bike_startup/blob/master/code/mlr_general_cycles_demo.ipynb
