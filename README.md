@@ -58,6 +58,8 @@ I also ran a Bayesian logistic regression to see if having a distribution of coe
 
 My best model was the random forest model which was able to get a perfect recall score and an accuracy score .9994. I found out that boosting methods and support vector machines work well but do not outperform a random forest in this case. Since interpretability is not important in this case I do not need to worry about random forest’s interpretability. I found that I unsupervised methods such as k-means did not work well for my data. I also found that Bayesian logistic regression models did not perform better than their frequentist counterparts. I was able to create a credit card detection model that caught all instances of fraud, in fact my model caught all instances of fraud.
 
+I was also able to create a live widget that allows me to create prodictions on what the time and amount of the charge were as well as the amounts for all the PCA columns. 
+
 # Going Forward  
 Going forward I would hope to get information on the what the PCA’d columns mean so I could find out what features most impact fraud. I also would like to increase the predictability of my Bayesian model as this model gives me more insight to the distribution of my coefficients.
 
