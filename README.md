@@ -8,9 +8,9 @@ The discovery notebook cleans and analyzes my data and looks to find insights on
 
 - [Discovery](./discovery.ipynb)
 
-- [Modelling Notebook](./modelling_notebook.ipynb)
+- [Modeling Notebook](./modelling_notebook.ipynb)
 
-- [Bayesian Notebook](./pymc_notebook.ipynb)
+- [Bayesian Notebook](./pymc_model.ipynb)
 
 - [Live Widget Demo](./credit_risk_widget.ipynb)
 
