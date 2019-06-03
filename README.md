@@ -16,7 +16,7 @@ The discovery notebook cleans and analyzes my data and looks to find insights on
 
 # Datasets
 
-For this project I used data a dataset from Kaggle titled “Credit Card Fraud Detection” and can be found and downloaded at https://www.kaggle.com/mlg-ulb/creditcardfraud. In this dataset there is a total of 284,807 observations. There is a column titled “Class” which has a value of 1 if the charge was fraudulent and 0 if the charge was not fraudulent. There is a column labeled Amount which is the amount of the charge and the column labeled Time is the difference between the transaction and the first transaction in the dataset. The remaining 28 columns are PCA’d columns from a previous dataset so that I would not be given confidential information. This makes recommendations hard considering that I am not able to columns mean.  
+For this project I used data a dataset from Kaggle titled “Credit Card Fraud Detection” and can be found and downloaded at https://www.kaggle.com/mlg-ulb/creditcardfraud. In this dataset there is a total of 284,807 observations. There is a column titled “Class” which has a value of 1 if the charge was fraudulent and 0 if the charge was not fraudulent. There is a column labeled Amount, which is the amount of the charge and the column labeled Time, which is the difference between the transaction and the first transaction in the dataset. The remaining 28 columns are PCA’d columns from a previous dataset so that I would not be given confidential information. This makes recommendations hard considering that I am not able to columns mean.  
 
 
 # Executive Summary
