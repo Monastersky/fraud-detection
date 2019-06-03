@@ -35,9 +35,9 @@ I was also interested to see if there were any clear clusters of fraud charges i
 
 # Modeling
 
-To train my models I randomly selected 50,000 rows and used them to train my model. This is because since I had so many data points running models on all my data or even 50 percent of my data would take a very long time. Since my classes were highly unbalanced I decided to use SMOTE which is way to balance my classes so that my models did not predict not fraud every single time. SMOTE works by underrepresenting my majority class which is not fraud and overrepresenting my minority class which is fraud. I changed my data so that I had the same amount of fraud cases in my sample dataset and did not change my original dataset.
+To train my models I randomly selected 50,000 rows and used them to train my model. This is because since I had so many data points running models on all my data or even 50 percent of my data would take a very long time. Since my classes were highly unbalanced I decided to use SMOTE, which is way to balance my classes so that my models did not predict not fraud every single time. SMOTE works by underrepresenting my majority class which is not fraud and overrepresenting my minority class which is fraud. I changed my data so that I had the same amount of fraud cases in my sample dataset and did not change my original dataset.
 
-I wanted to run many models to make sure the model I was choosing for production worked the best. I have displayed a plot below that has all the models and the recall and accuracy scores. For this project I wanted to reduce false negatives so I wanted the highest recall score. Since I had multiple models with 1.0 recall scores I chose to pick the model that had the highest accuracy score of models that had perfect recall scores. Please see the scores of my models below.
+I wanted to run many models to make sure the model I was choosing for production worked the best. I have displayed a plot below that has all the models and the recall and accuracy scores for each model. For this project I wanted to reduce false negatives so I wanted the highest recall score. Since I had multiple models with a 1.0 recall score, I chose the model that had the highest accuracy score of the models that had perfect recall scores. Please see the scores of my models below.
 
 |Model Name|Recall Score|Accuracy Score|F1 Score|
 |---|---|---|---|
@@ -48,20 +48,18 @@ I wanted to run many models to make sure the model I was choosing for production
 |K-Nearest Neighbors Classifier|1.0|0.99539337165168|0.42857142857142855|
 |Support Vector Machines|0.8963414634146342|0.9926968087160779|0.29777177582714387|
 
-I ran also ran the unsupervised model K-means however my results were not good.
-
-I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795 with considerably worse accuracy scores.
+I also ran a Bayesian logistic regression to see if having a distribution of coefficients would give me better predictability. Unfortunately, the Bayesian logistic regression had worse scores with an average recall score of .795.
 
 ![](plots/pymc_dist.png)
 
 # Conclusions
 
-My best model was the random forest model which was able to get a perfect recall score and an accuracy score .9994. I found out that boosting methods and support vector machines work well but do not outperform a random forest in this case. Since interpretability is not important in this case I do not need to worry about random forest’s interpretability. I found that I unsupervised methods such as k-means did not work well for my data. I also found that Bayesian logistic regression models did not perform better than their frequentist counterparts. I was able to create a credit card detection model that caught all instances of fraud, in fact my model caught all instances of fraud.
+My best model was the random forest model which was able to get a perfect recall score and an accuracy score .9994. I found out that boosting methods and support vector machines work well but do not outperform a random forest in this case. It is also nice that random forest is not a black box model so that we can see which features were most important. I also found that the Bayesian logistic regression models did not perform better the frequentist logistic regression. I was successfully able to create a credit card detection model that caught all instances of fraud.
 
-I was also able to create a live widget that allows me to create prodictions on what the time and amount of the charge were as well as the amounts for all the PCA columns. 
+I was also able to create a live widget that allows me to create prodictions on what the time and amount of the charge were as well as the amounts for all the PCA'd columns. 
 
 # Going Forward  
-Going forward I would hope to get information on the what the PCA’d columns mean so I could find out what features most impact fraud. I also would like to increase the predictability of my Bayesian model as this model gives me more insight to the distribution of my coefficients.
+Going forward I would hope to get information on the what the PCA’d columns mean so I could find out what features most impact fraud.
 
 # Sources
 
