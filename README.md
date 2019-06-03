@@ -29,7 +29,7 @@ The PCA’d columns are hard to gather insight about given that I don’t know w
 
 ![Distribution for V17](plots/V17.png)
 
-I was also interested to see if there were any clear clusters of fraud charges in scatterplots between my variables, which would help in identifying fraud instances. I plotted the V7 variable against Amount and was able to see a slight difference between the fraud and the non-fraud charges. The fraud charges had values along the y axis where x equaled zero while most of the values for non-fraud were where y equaled zero, however the non-fraud charges still overlapped with most of the fraud charges. I tried plotting V5 against V6 and while the scatterplot looked very different I had similar issues. 
+I was also interested to see if there were any clear clusters of fraud charges in scatterplots between my variables, which would help in identifying fraud instances. I plotted the V7 variable against Amount and was able to see a slight difference between the fraud and the non-fraud charges. The fraud charges had more variation in their , however the non-fraud charges still overlapped with most of the fraud charges. I tried plotting V5 against V6 and while the scatterplot looked very different I had similar issues. 
 
 ![Scatterplot for V5 and V6](plots/V5_V6.png)
 
