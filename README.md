@@ -4,7 +4,7 @@ I am interested to see if I can create a fraud detection model that limits the i
 
 # Notebooks
 
-The discovery notebook cleans and analyzes my data and looks to find insights on any trends I had in my data. The modeling notebook balances my classes and applies frequentist models to predict instances of fraud. The Bayesian notebook balances my classes and applies a Bayesian logistic regression model to predict instances of fraud.
+The discovery notebook cleans and analyzes my data and looks to find insights on any trends I had in my data. The modeling notebook balances my classes and applies frequentist models to predict instances of fraud. The Bayesian notebook balances my classes and applies a Bayesian logistic regression model to predict instances of fraud. The live widget demo allows someone to make live predictions on whether a charge is fraudalent or not.
 
 - [Discovery](./discovery.ipynb)
 
